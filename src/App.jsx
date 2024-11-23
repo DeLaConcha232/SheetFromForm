@@ -1,25 +1,24 @@
 import styles from './App.module.css';
-import Button from '@mui/material/Button';
-
+import Forms from './components/Forms'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 export default function App() {
   return (
     <>
-      <header>
-        <Button variant="contained">Hello world</Button>
-      </header>
+      <Navbar />
       <main className={styles.container}>
-        <article className={styles.Logo}>
+        <picture className={styles.Logo}>
+          <img src="/vite.svg" alt="Logotipo" className={styles.image}/>
+        </picture>
 
-        </article>
+        <Forms />
 
         <article className={styles.PreView}>
 
         </article>
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </>
   )
 };
