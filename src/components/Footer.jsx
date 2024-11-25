@@ -8,9 +8,9 @@ export default function Component() {
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <Footer.Brand
             href="https://flowbite.com"
-            src="https://flowbite.com/docs/images/logo.svg"
-            alt="Flowbite Logo"
-            name="Flowbite"
+            src="/Logotipo_BlancoNegro.svg"
+            alt="Sheet From Form"
+            name="Sheet From Form"
           />
           <Footer.LinkGroup>
             <Footer.Link href="#">About</Footer.Link>
