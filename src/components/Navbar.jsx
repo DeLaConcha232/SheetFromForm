@@ -4,9 +4,9 @@ import { Navbar } from "flowbite-react";
 export default function Component() {
   return (
     <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
-        <img src="/vite.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+      <Navbar.Brand>
+        <img src="/Logotipo_BlancoNegro.svg" className="mr-3 h-10 sm:h-9" alt="Flowbite React Logo" />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Sheet From Form</span>
       </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
